@@ -1,16 +1,20 @@
 
 import './App.css'
+import ApexChart from './Component/ApexChart'
 import Converter from "./Component/Converter"
 
 function App() {
 
   return (
-    <div className='border my-5 border-amber-400 flex justify-center p-4  '>
-       <div className="  ">
-        <h1 className='text-5xl mb-5 font-bold text-center' >Currency Converter</h1>
+    <>
+    <div className='border  border-amber-400   '>
+   
       <Converter/>
     </div>
-    </div>
+  
+  
+    </>
+    
      
   )
 }
