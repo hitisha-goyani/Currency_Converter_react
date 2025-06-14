@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <div className='border  border-amber-400   '>
+    <div className='  '>
    
       <Converter/>
     </div>

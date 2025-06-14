@@ -29,7 +29,8 @@ import { CurrencyContext } from "../context/CurrencyContext";
               },
               title: {
                 text: 'Product Trends by Month',
-                align: 'left'
+                align: 'left',
+                 colors:'#989898'
               },
               grid: {
                 row: {
@@ -73,7 +74,8 @@ import { CurrencyContext } from "../context/CurrencyContext";
               },
               title: {
                 text: 'Currency Trends by Country',
-                align: 'left'
+                align: 'left',
+                colors:['#989898']
               },
               grid: {
                 row: {
