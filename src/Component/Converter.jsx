@@ -24,7 +24,7 @@ const Converter = () => {
       <h1 className="text-5xl my-15 font-bold text-center text-[#1F2261]">
         Currency Converter
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-1 gap-5  max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-5  max-w-7xl mx-auto">
       
         <div className=" shadow-2xl bg-white  rounded-2xl pt-10 px-5">
           <h1 className="text-[#989898]">Amount</h1>
@@ -38,8 +38,7 @@ const Converter = () => {
             <hr class="w-85 h-1 my-8 text-[#989898]" />
             <button
               className="rounded-full absolute border p-2  bg-[#26278D] text-white"
-              onClick={dataSwitch}
-            >
+              onClick={dataSwitch}>
               <RiArrowUpDownLine size={25}></RiArrowUpDownLine>
             </button>
           </div>
